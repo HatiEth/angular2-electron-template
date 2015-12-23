@@ -18,20 +18,13 @@
         "**/*.ts",
         "**/*.tsx",
         "!node_modules/**",
-        "!jspm_packages/**"
+        "!jspm_packages/**",
+        "!app/typings/**"
     ],
     "compileOnSave": false,
     "buildOnSave": false,
     "files": [
-        "app/main.ts",
-        "app/typings/angular2.d.ts",
-        "app/typings/angular2/bootstrap.d.ts",
-        "app/typings/angular2/common.d.ts",
-        "app/typings/angular2/core.d.ts",
-        "app/typings/angular2/platform/browser.d.ts",
-        "app/typings/angular2/router.d.ts",
-        "app/typings/es6-promise/es6-promise.d.ts",
-        "app/typings/es6-shim/es6-shim.d.ts"
+        "app/main.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
