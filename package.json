@@ -28,7 +28,9 @@
   },
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@^2.0.0-beta.0"
+      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@^0.0.93"
     },
     "devDependencies": {
       "typescript": "npm:typescript@^1.6.2"

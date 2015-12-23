@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**",
+        "!jspm_packages/**"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "files": [
+        "app/main.ts",
+        "app/typings/angular2.d.ts",
+        "app/typings/angular2/bootstrap.d.ts",
+        "app/typings/angular2/common.d.ts",
+        "app/typings/angular2/core.d.ts",
+        "app/typings/angular2/platform/browser.d.ts",
+        "app/typings/angular2/router.d.ts",
+        "app/typings/es6-promise/es6-promise.d.ts",
+        "app/typings/es6-shim/es6-shim.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
