@@ -24,6 +24,8 @@
     "buildOnSave": false,
     "files": [
         "app/app.component.ts",
+        "app/hero-detail.component.ts",
+        "app/hero.ts",
         "app/main.ts",
         "typings/angular2.d.ts",
         "typings/angular2/bootstrap.d.ts",
