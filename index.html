@@ -6,12 +6,19 @@
     <script src="jspm_packages/system.js" charset="utf-8"></script>
     <script src="config.js"></script>
     <script charset="utf-8">
-      System.import('./app/main.ts!typescript');
+      System.config({
+        packages: {
+          app: {
+            defaultExtension: 'ts'
+          }
+        }
+      })
+      System.import('app/main');
     </script>
   </head>
   <body>
     <h1>Hello World!</h1>
-    <app></app>
+    <my-app></my-app>
     <span>
       We are using node <script>document.write(process.versions.node)</script>,
       Chrome <script>document.write(process.versions.chrome)</script>,

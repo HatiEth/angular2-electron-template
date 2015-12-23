@@ -23,13 +23,14 @@
     "compileOnSave": false,
     "buildOnSave": false,
     "files": [
+        "app/app.component.ts",
         "app/main.ts",
-        "app/typings/angular2.d.ts",
-        "app/typings/angular2/bootstrap.d.ts",
-        "app/typings/angular2/common.d.ts",
-        "app/typings/angular2/core.d.ts",
-        "app/typings/angular2/platform/browser.d.ts",
-        "app/typings/angular2/router.d.ts"
+        "typings/angular2.d.ts",
+        "typings/angular2/bootstrap.d.ts",
+        "typings/angular2/common.d.ts",
+        "typings/angular2/core.d.ts",
+        "typings/angular2/platform/browser.d.ts",
+        "typings/angular2/router.d.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
