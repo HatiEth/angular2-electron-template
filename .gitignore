@@ -1,0 +1,28 @@
+
+bower_components/
+
+
+###################
+# generated files #
+###################
+static/
+.sass-cache/
+
+###########
+# LevelDB #
+###########
+db/
+
+
+###########
+# node.js #
+###########
+node_modules/
+
+########
+# jspm #
+########
+jspm_packages/
+
+
+*.log
